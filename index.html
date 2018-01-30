@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="rtl">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -130,9 +130,9 @@
 .icon-settings{
     font-size: 36px;
     padding: 15px;
-    border: 1px solid orangered;
+    
     position: absolute;
-    right: -35px;
+    right: -10px;
 }
 .steps ul li{
     margin-bottom: 25px;
@@ -150,7 +150,7 @@
                 }
                 .fixma{
                    
-                    margin-top: 50px;
+                    margin-top: 175px;
                 }
                 .main-footer{
                     height: 300px;
@@ -160,25 +160,18 @@
                     color: white;
                     text-align: right;
                 }
+                .steps p {
+                    background: rgba(51, 51, 51, 0.199);
+                    color: black;
+                    padding: 10px;
+                    border-radius: 6px;
+                }
         </style>
     <title>نضارتي دوت كوم</title>
   </head>
   <body>
     <div class="container">
         <div class="row">
-            
-            <div class="col-lg-6 fixma">
-                <div id="c-forms-container" class="cognito">
-                    <script src="https://services.cognitoforms.com/session/script/85336ac6-8250-4535-9be7-529779051b8b"></script>
-                    <script>Cognito.load('forms', {"id":"1","isPublicLink":true,"entry":"","accessToken":""});</script>
-                </div>
-            <script>
-        
-                Cognito.config.reportErrors = true;
-        
-            </script>
-           
-            </div>
             <div class="col-lg-6">
                 <img src="logo.png" alt="" class="logosite">
                 <div class="steps">
@@ -216,6 +209,24 @@
                     </ul>
                 </div>
             </div>
+
+
+
+
+
+            <div class="col-lg-6 fixma">
+                <div id="c-forms-container" class="cognito">
+                    <script src="https://services.cognitoforms.com/session/script/85336ac6-8250-4535-9be7-529779051b8b"></script>
+                    <script>Cognito.load('forms', {"id":"1","isPublicLink":true,"entry":"","accessToken":""});</script>
+                </div>
+            <script>
+        
+                Cognito.config.reportErrors = true;
+        
+            </script>
+           
+            </div>
+            
         </div>
     </div>
 <footer class="main-footer">
